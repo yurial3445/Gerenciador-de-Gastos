@@ -29,10 +29,20 @@ public class Main {
 
                 System.out.print("Descrição: ");
                 String descricao = scanner.nextLine();
+                
+                System.out.print("Valor: ");
+                double valor = scanner.nextDouble();
+
+                Gastos gasto = new Gastos(descricao, valor);
+                
+                System.out.println("Gasto salvo.");
+            
+            
             }
         
         }
-        
+        //Fechar acanner
+        scanner.close();
     
     }
 }
