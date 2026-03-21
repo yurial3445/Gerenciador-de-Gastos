@@ -4,7 +4,7 @@ Um simples programa que ira calcular seus gastos e salvar.
 Projeto:
 
 
-🟢 Build status:passing
+🟢 Build status: passing
 
 Tests: passing
 
