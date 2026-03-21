@@ -20,6 +20,4 @@ public class Gastos {
             //atributo do objeto atual recebe a data e hora atual
             this.dataHora = LocalDateTime.now();
         }
-
-    
 }

@@ -17,6 +17,8 @@ public class Main {
             System.out.println("===============================");
             System.out.println("Aperte (1) para Adicionar gastos");
             System.out.println("Aperte (2) para  Sair");
+            System.out.println("Aperte (3) para Ver total gasto");
+
 
             //ler a opção
             System.out.print("Escolha uma opção: ");
@@ -32,12 +34,22 @@ public class Main {
                 
                 System.out.print("Valor: ");
                 double valor = scanner.nextDouble();
+                //Consumir quebra de linha pendente
+                scanner.nextLine();
 
                 Gastos gasto = new Gastos(descricao, valor);
-                
+                Salvar.salvar(gasto);
+
                 System.out.println("Gasto salvo.");
             
             
+            }else if (opcao == 2) {
+
+                Leitor.listar();
+
+            } else if (opcao == 3) {
+
+                Leitor.mostrarTotal();
             }
         
         }
