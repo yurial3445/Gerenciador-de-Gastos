@@ -38,7 +38,7 @@ public class Main {
                 scanner.nextLine();
 
                 Gastos gasto = new Gastos(descricao, valor);
-                Salvar.salvar(gasto);
+                Salvar.salvar(gasto, null);
 
                 System.out.println("Gasto salvo.");
             

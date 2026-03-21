@@ -3,9 +3,13 @@ Um simples programa que ira calcular seus gastos e salvar.
 
 Projeto:
 
-🔴 Build status: failing
-Coverage: 0%
-Version: 1.5.2
+🟢 Build status:passing
+
+Tests: passing
+
+Coverage: 100%
+
+Version: 1.6.3
 
 
 

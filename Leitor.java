@@ -24,7 +24,7 @@ public class Leitor {
         }
     }
 
-    public static void mostrarTotal() {
+    public static double mostrarTotal() {
 
         double total = 0;
 
@@ -53,5 +53,9 @@ public class Leitor {
         } catch (IOException e) {
             System.out.println("Erro ao calcular total.");
         }
+        return total;
+        
     }
+
+    public double total;
 }
