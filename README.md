@@ -10,7 +10,7 @@ Tests: passing
 
 Coverage: 100%
 
-Version: 1.6.3
+Version: 1.6.4
 
 
 Esse é um gerenciador de gastos pessoais simples feito em java para auxiliar nas compras e gastos das pessoas, você poderá colocar as descrições, valor e o código irá  calcular o total gasto, salvar e baixar os gastos em arquivos diferentes.
