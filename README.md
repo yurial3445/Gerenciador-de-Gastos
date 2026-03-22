@@ -7,6 +7,8 @@ Esse é um gerenciador de gastos simples feito em java, para auxiliar aqueles co
 
 Pode ser usado por diversas pessoas que sabem rodar códigos/programas e principalmente contadores que sabem usar e rodar códigos/programas.
 
+COMO USAR:
+
 Ao rodar o código,vai abrir o menu e terá as seguintes opções:
 
 Aperte (1) para Adicionar gastos
@@ -22,10 +24,13 @@ Atenção: os arquivos de texto total e gastos serão salvo fora da pasta do có
 
 Ao selecionar a opção(3) fará com que veja o valor total dos seus gastos, mas fará com que continue os seus adicionamentos de produtos.
 
+INSTALÇÃO:
+Baixe o arquivo compactado, descompacta e abra no VScode ou em qualquer IDE (Ambiente de Desenvolvimento Integrado).
 Version: 1.6.4
 
 Tecnologias utilizada:
-Java
+Linguagem Java
+VScode insiders
 
 Autor: André Yuri Alves Silva
 link do repositorio: https://github.com/yurial3445/Gerenciador-de-Gastos
