@@ -1,8 +1,7 @@
 # Gerenciador de Gastos
-Um simples programa que ira calcular seus gastos e salvar, resolvendo problemas de pessoas não conseguem controlar gastos .
+Um simples programa que ira calcular seus gastos e salvar, resolvendo problemas de pessoas não conseguem controlar gastos.
 
 Projeto:
-
 
 Esse é um gerenciador de gastos simples feito em java, para auxiliar aqueles com problemas em saber sobre seus gastos nas compras, você poderá colocar as descrições, valor e o código irá  calcular o total gasto, salvar e baixar os gastos  contendo data e hora.
 
