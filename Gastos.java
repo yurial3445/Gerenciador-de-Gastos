@@ -1,23 +1,18 @@
-
 import java.time.LocalDateTime;
-//Importa uma classe da biblioteca padrão do Java para trabalhar com data e hora.
 
 public class Gastos {
-//Variaveir para armazenar a descrição do gastos
-        String descricao;
-        double valor;
-        LocalDateTime dataHora;
 
-        //construtor
-        public Gastos(String descricao, double valor) {
-                        
-            //atributo do objeto atual recebe o valor passado como argumento
-            this.descricao = descricao;
+    String descricao;
+    double valor;
+    LocalDateTime dataHora;
+    String moeda; // "BRL" ou "USD"
 
-            //atributo do objeto atual recebe o valor passado como argumento
-            this.valor = valor;
+    // construtor atualizado
+    public Gastos(String descricao, double valor, String moeda) {
 
-            //atributo do objeto atual recebe a data e hora atual
-            this.dataHora = LocalDateTime.now();
-        }
+        this.descricao = descricao;
+        this.valor = valor;
+        this.moeda = moeda;
+        this.dataHora = LocalDateTime.now();
+    }
 }
