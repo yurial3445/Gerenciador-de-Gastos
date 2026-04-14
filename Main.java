@@ -31,17 +31,34 @@ public class Main {
 
                 System.out.print("Descrição: ");
                 String descricao = scanner.nextLine();
-                
+
                 System.out.print("Valor: ");
                 double valor = scanner.nextDouble();
-                //Consumir quebra de linha pendente
                 scanner.nextLine();
 
-                Gastos gasto = new Gastos(descricao, valor);
+                System.out.print("O valor está em dólar? (s/n): ");
+                String resposta = scanner.nextLine();
+
+                String moeda = "BRL";
+
+                if (resposta.equalsIgnoreCase("s")) {
+                    double cotacao = CotacaoService.buscarDolar();
+                    valor = valor * cotacao;
+                    moeda = "USD";
+                    System.out.println("Convertido para reais: " + valor);
+                }
+
+                Gastos gasto = new Gastos(descricao, valor, moeda);
                 Salvar.salvar(gasto, null);
 
                 System.out.println("Gasto salvo.");
-            
+                
+
+                if (resposta.equalsIgnoreCase("s")) {
+                        double cotacao = CotacaoService.buscarDolar();
+                        valor = valor * cotacao;
+                        System.out.println("Convertido para reais: " + valor);
+                    }
             
             }else if (opcao == 2) {
 
