@@ -1,19 +1,13 @@
 # Gerenciador de Gastos
-Um simples programa que ira calcular seus gastos e salvar.
+Um simples programa que ira calcular seus gastos e salvar, resolvendo problemas de pessoas não conseguem controlar gastos.
 
 Projeto:
 
+Esse é um gerenciador de gastos simples feito em java, para auxiliar aqueles com problemas em saber sobre seus gastos nas compras, você poderá colocar as descrições, valor e o código irá  calcular o total gasto, salvar e baixar os gastos  contendo data e hora.
 
-🟢 Build status: passing
+Pode ser usado por diversas pessoas que sabem rodar códigos/programas e principalmente contadores que sabem usar e rodar códigos/programas.
 
-Tests: passing
-
-Coverage: 100%
-
-Version: 1.6.4
-
-
-Esse é um gerenciador de gastos pessoais simples feito em java para auxiliar nas compras e gastos das pessoas, você poderá colocar as descrições, valor e o código irá  calcular o total gasto, salvar e baixar os gastos em arquivos diferentes.
+COMO USAR:
 
 Ao rodar o código,vai abrir o menu e terá as seguintes opções:
 
@@ -30,5 +24,24 @@ Atenção: os arquivos de texto total e gastos serão salvo fora da pasta do có
 
 Ao selecionar a opção(3) fará com que veja o valor total dos seus gastos, mas fará com que continue os seus adicionamentos de produtos.
 
+INSTALÇÃO:
+Baixe o arquivo compactado, descompacta e abra no VScode ou em qualquer IDE (Ambiente de Desenvolvimento Integrado).
+Version: 1.6.4
+
+Tecnologias utilizada:
+Linguagem Java
+VScode insiders
+
+Autor: André Yuri Alves Silva
+link do repositorio: https://github.com/yurial3445/Gerenciador-de-Gastos
+
+🟢 Build status: passing
+
+Tests: passing
+
+Coverage: 100%
+
+
+ 
 
 
