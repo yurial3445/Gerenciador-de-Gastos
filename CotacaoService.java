@@ -3,12 +3,13 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class CotacaoService{
+public class CotacaoService {
 
-    public static double buscarDolar(){
-        try{
+    public static double buscarDolar() {
 
-            URL url =new URL("https://economia.awesomeapi.com.br/json/last/USD-BRL");
+        try {
+            URL url = new URL("https://economia.awesomeapi.com.br/json/last/USD-BRL");
+
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
 
@@ -19,19 +20,18 @@ public class CotacaoService{
             String linha;
             StringBuilder resposta = new StringBuilder();
 
-            while((linha = reader.readLine()) != null){
+            while ((linha = reader.readLine()) != null) {
                 resposta.append(linha);
             }
 
             reader.close();
 
             String json = resposta.toString();
-            String valor = json.split("\"bid\":\"")[1].split("\"")[0];
+            String valor = json.split("\\\"bid\\\":\\\"")[1].split("\\\"")[0];
 
             return Double.parseDouble(valor);
 
-
-        } catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             return 0.0;
         }
