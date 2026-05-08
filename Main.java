@@ -1,5 +1,7 @@
-package Main;
 //importar a classe Scanner para ler a entrada do usuário
+import Main.CotacaoService;
+import Main.Gastos;
+import Main.Leitor;
 import java.util.Scanner;
 
 public class Main {
