@@ -26,7 +26,7 @@ Ao selecionar a opção(3) fará com que veja o valor total dos seus gastos, mas
 
 INSTALÇÃO:
 Baixe o arquivo compactado, descompacta e abra no VScode ou em qualquer IDE (Ambiente de Desenvolvimento Integrado).
-Version: 1.7.5
+Version: 1.8.7
 
 Tecnologias utilizada:
 Linguagem Java
@@ -42,6 +42,19 @@ Tests: passing
 Coverage: 100%
 
 
- 
+ ## API utilizada
+- AwesomeAPI
+https://economia.awesomeapi.com.br/
+
+## Funcionalidades
+- Cadastro de gastos
+- Conversão USD -> BRL
+- Teste de integração
+
+## Como executar
+
+```bash
+javac *.java
+java Main
 
 
