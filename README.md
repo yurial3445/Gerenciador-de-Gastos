@@ -26,7 +26,7 @@ Ao selecionar a opção(3) fará com que veja o valor total dos seus gastos, mas
 
 INSTALÇÃO:
 Baixe o arquivo compactado, descompacta e abra no VScode ou em qualquer IDE (Ambiente de Desenvolvimento Integrado).
-Version: 1.8.7
+Version: 1.9.7
 
 Tecnologias utilizada:
 Linguagem Java
