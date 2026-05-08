@@ -1,4 +1,3 @@
-package Main;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -36,11 +35,11 @@ public class Leitor {
 
             while ((linha = reader.readLine()) != null) {
 
-                // separar partes da linha
                 String[] partes = linha.split("\\|");
 
-                // pegar parte do valor (ex: " R$ 25")
-                String valorTexto = partes[2].replace("R$", "").trim();
+                String valorTexto = partes[2]
+                    .replace("R$", "")
+                    .trim();
 
                 double valor = Double.parseDouble(valorTexto);
 
@@ -54,9 +53,7 @@ public class Leitor {
         } catch (IOException e) {
             System.out.println("Erro ao calcular total.");
         }
-        return total;
-        
-    }
 
-    public double total;
+        return total;
+    }
 }
