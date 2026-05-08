@@ -1,3 +1,4 @@
+package Main;
 //importar a classe Scanner para ler a entrada do usuário
 import java.util.Scanner;
 
