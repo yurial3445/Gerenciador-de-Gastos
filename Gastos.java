@@ -5,9 +5,8 @@ public class Gastos {
     String descricao;
     double valor;
     LocalDateTime dataHora;
-    String moeda; // "BRL" ou "USD"
+    String moeda;
 
-    // construtor atualizado
     public Gastos(String descricao, double valor, String moeda) {
 
         this.descricao = descricao;
